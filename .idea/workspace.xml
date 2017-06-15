@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfa49ac4-b92c-4738-80f8-e124af1f6de5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helloworld.php" afterPath="$PROJECT_DIR$/helloworld.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/operadores.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/strings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cursophp7.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="helloworld.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helloworld.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="102">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operadores.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/operadores.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="802">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strings.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -43,6 +65,8 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/helloworld.php" />
         <option value="$PROJECT_DIR$/helloworld.php" />
+        <option value="$PROJECT_DIR$/operadores.php" />
+        <option value="$PROJECT_DIR$/strings.php" />
       </list>
     </option>
   </component>
@@ -154,12 +178,12 @@
       <updated>1497038913238</updated>
       <workItem from="1497038914753" duration="1202000" />
       <workItem from="1497204711416" duration="1375000" />
-      <workItem from="1497208647157" duration="84000" />
+      <workItem from="1497208647157" duration="6166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2661000" />
+    <option name="totallyTimeSpent" value="8743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
@@ -212,8 +236,24 @@
     <entry file="file://$PROJECT_DIR$/.idea/helloworld.php" />
     <entry file="file://$PROJECT_DIR$/helloworld.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operadores.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
           <folding />
         </state>
       </provider>
