@@ -3,7 +3,8 @@
 $url = 'http://localhost:8080/cursophp7/json.php';
 $contents = file_get_contents($url); 
 $contents = utf8_encode($contents); 
-$results = json_decode($contents); 
+// true -> o true faz com que o json seja convertido em array e nao objeto. Se tirar o true (json_decode($contents)) ele retorna uma lista de objetos.
+$results = json_decode($contents, true);   
 
 
 
