@@ -8,6 +8,14 @@ class Carro {
     /**
      * @return mixed
      */
+    public function getModelo()
+    {
+        return $this->modelo;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getMotor()
     {
         return $this->motor;
@@ -45,9 +53,32 @@ class Carro {
         $this->modelo = $modelo;
     }
 
-	
+    public function __construct($modelo, $motor, $ano)
+    {
+
+        $this->setModelo($modelo);
+        $this->setMotor($motor);
+        $this->setAno($ano);
+
+    }
+
+    public function __destruct()
+    {
+         echo "<br><br><br><br><br>Objeto Destruido!";
+    }
+
+    /**
+     *
+     */
+    public function __toString()
+    {
+        return "<br><br>Modelo: ".$this->getModelo()." Motor: ".$this->getMotor()." Ano: ".$this->getAno();
+    }
 }
 
+
+$meucarro = new Carro("KIA", "1.6", "2015");
+echo $meucarro;
 
 
 ?>
