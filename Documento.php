@@ -40,7 +40,7 @@ return false;
 
 
 $cpf = preg_replace('[^0-9]', '', $cpf);
-$cpf = str_pad($cpf, 11, '0', STR_PAD_LEFT);
+$cpf = str_pad($cpf, 11, '0', str_pad_left);
 
 
 if (strlen($cpf) != 11) {
