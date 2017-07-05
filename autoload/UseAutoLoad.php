@@ -33,13 +33,10 @@ spl_autoload_register("incluirClasse");
 */
 
 require_once ("util".DIRECTORY_SEPARATOR."myautoload.php");
-echo "<br><br>";
-var_dump(spl_autoload_functions());
-echo "<br><br>";
+
 $myCar = new cVoyage();
-echo "<br><br>";
-var_dump(spl_autoload_functions());
-echo "<br><br>";
+
+
 $myCar->acelerar(10);
 $myCar->acelerar(20);
 $myCar->passarMarcha(2);
