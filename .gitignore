@@ -15,6 +15,7 @@
 # Folders #
 ###################
 .idea/
+.vscode/
 testes
 
 # Packages #
